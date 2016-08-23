@@ -1,0 +1,48 @@
+.upper-sky {
+  width: 100%;
+  height: 183px;
+  background-color: $sky-color;
+  position: relative;
+  overflow: hidden;
+  .dome {
+    width: 66px;
+    height: 79px;
+    margin: 0 auto;
+    background-color: $black;
+    position: absolute;
+    bottom: -40px;
+    left: 258px;
+    border-radius: 48%;
+  }
+  .light-triangle {
+    position: absolute;
+    bottom:0;
+    left:0;
+	  width: 0;
+	  height: 0;
+	  border-bottom: 50px solid $coloroflight;
+	  border-right: 256px solid transparent;
+  }
+}
+.light-main {
+  width: 100%;
+  height: 45px;
+  .light-left {
+    width: 258px;
+    height: 100%;
+    background-color: $coloroflight;
+    float: left;
+  }
+  .upper-room {
+    height: 100%;
+    width: 66px;
+    background-color: $upperroom;
+    float: left;
+    .upper-room-shade {
+      height: 100%;
+      width: 50%;
+      margin: 0 auto;
+      background-color: $shade-window;
+    }
+  }
+}
