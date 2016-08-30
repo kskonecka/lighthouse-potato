@@ -272,6 +272,7 @@ section .main {
 }
 
 .light-main {
+  position: relative;
   width: 100%;
   height: 45px;
 }
@@ -295,4 +296,54 @@ section .main {
   width: 50%;
   margin: 0 auto;
   background-color: #404345;
+}
+
+.light-main .right-light {
+  background-color: #fbfcf0;
+  height: 50%;
+  width: 256px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.light-main .right-light-sky {
+  background-color: #333333;
+  height: 100%;
+  float: right;
+  width: 240px;
+}
+
+.mid-section {
+  width: 100%;
+  height: 28px;
+  background-color: #333333;
+}
+
+.mid-section .lighthouse-crown {
+  height: 100%;
+  width: 90px;
+  background-color: #000000;
+  margin-left: 245px;
+  position: relative;
+}
+
+.mid-section .lighthouse-crown .triangle-left {
+  width: 0;
+  height: 0;
+  border-bottom: 14px solid #333333;
+  border-right: 17px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.mid-section .lighthouse-crown .triangle-right {
+  width: 0;
+  height: 0;
+  border-bottom: 14px solid #333333;
+  border-left: 17px solid transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

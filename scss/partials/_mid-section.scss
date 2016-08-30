@@ -1,0 +1,30 @@
+.mid-section {
+  width: 100%;
+  height: 28px;
+  background-color: $sky-color;
+  .lighthouse-crown {
+    height: 100%;
+    width: 90px;
+    background-color: $black;
+    margin-left: 245px;
+    position: relative;
+    .triangle-left {
+      width: 0;
+      height: 0;
+      border-bottom: 14px solid $sky-color;
+      border-right: 17px solid transparent;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    .triangle-right {
+      width: 0;
+      height: 0;
+      border-bottom: 14px solid $sky-color;
+      border-left: 17px solid transparent;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
